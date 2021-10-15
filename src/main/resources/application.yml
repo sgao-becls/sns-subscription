@@ -1,0 +1,16 @@
+cloud:
+  aws:
+    region:
+      auto: false
+      static: us-west-2
+    credentials:
+      accessKey: accessKey
+      secretKey: secretKey
+      instanceProfile: false
+      useDefaultAwsCredentialsChain: true
+
+cytobank:
+  aws:
+    sns:
+      topics:
+        song-topic: song-sns-notification
